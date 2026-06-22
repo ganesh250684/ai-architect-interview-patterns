@@ -291,7 +291,7 @@ You can close your answer like this:
 > As an architect, my responsibility is not to use AI everywhere. My responsibility is to choose the simplest architecture that meets reliability, cost, security, and business requirements. AI Agents are powerful, but they should be used only when they add real value over deterministic workflows.
 
 ---
-
+![AI Architect Interview Pattern 1 - When Should You NOT Use an AI Agent?](01-when-not-to-use-ai-agent.png)
 ## Related upcoming topics
 
 * AI Agent vs Workflow vs Chatbot

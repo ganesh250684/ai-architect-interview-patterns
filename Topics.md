@@ -8,7 +8,7 @@ The focus is not only on definitions, but on practical interview answers, tradeo
 
 # Part 1: Agentic AI Fundamentals
 
-## 01. When should you NOT use an AI Agent?
+## 01. When should you NOT use an AI Agent? 
 
 Status: Started
 
@@ -16,6 +16,7 @@ Key idea:
 
 > Not every problem needs an AI Agent. If the workflow is fixed, deterministic, and rule-based, a normal workflow may be better.
 
+Status: Completed
 ---
 
 ## 02. AI Agent vs Workflow vs Chatbot
@@ -24,6 +25,7 @@ Key idea:
 
 > A chatbot talks, a workflow follows fixed steps, and an AI Agent decides actions dynamically using reasoning, tools, and context.
 
+Status: Completed
 ---
 
 ## 03. What is an AI Agent? Basic vs Senior Answer

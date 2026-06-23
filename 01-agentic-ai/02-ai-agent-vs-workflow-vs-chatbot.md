@@ -375,7 +375,7 @@ You can close your answer like this:
 > As an architect, I do not call every LLM-based system an AI Agent. I first check whether the system only needs conversation, fixed process execution, or dynamic decision-making. Based on that, I choose chatbot, workflow, or AI Agent architecture. This avoids unnecessary cost, latency, and complexity.
 
 ---
-
+![AI Architect Interview Pattern 2 - AI Agent vs Workflow vs Chatbot](02-ai-agent-vs-workflow-vs-chatbot.png)
 ## Related upcoming topics
 
 * What is an AI Agent? Basic vs Senior Answer

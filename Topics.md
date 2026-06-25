@@ -34,6 +34,9 @@ Key idea:
 
 > Do not only say “LLM + tools.” Explain reasoning, planning, tool use, memory, guardrails, and human-in-the-loop.
 
+
+Status: Completed
+
 ---
 
 ## 04. Tool Calling in AI Agents

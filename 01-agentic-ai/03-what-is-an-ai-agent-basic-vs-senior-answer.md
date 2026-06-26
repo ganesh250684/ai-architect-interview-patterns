@@ -398,6 +398,7 @@ You can close your answer like this:
 * How to design an Agentic AI system
 * Observability for AI Agents
 
+![AI Architect Interview Pattern 4 - Tool Calling in AI Agents](04-tool-calling-in-ai-agents.png)
 ---
 
 ## About the Author

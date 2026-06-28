@@ -15,7 +15,7 @@ The goal is to provide a common, easy-to-understand example so that readers can 
 * Observability
 
 ---
-
+![alt text](<Common Example Scenario Expense Management AI Agent.png>)
 ## Simple Scenario
 
 Imagine an employee submitted a hotel expense.

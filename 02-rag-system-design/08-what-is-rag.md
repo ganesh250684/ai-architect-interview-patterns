@@ -2,7 +2,7 @@
 
 # What is RAG?
 
-![AI Architect Interview Pattern 8 - What is RAG?](../assets/08-what-is-rag.png)
+![AI Architect Interview Pattern 8 - What is RAG?](08-what-is-rag.png)
 
 ---
 

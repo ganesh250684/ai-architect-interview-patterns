@@ -2,7 +2,7 @@
 
 # Human-in-the-loop in Agentic AI
 
-![AI Architect Interview Pattern 7 - Human-in-the-loop in Agentic AI](../assets/07-human-in-the-loop-in-agentic-ai.png)
+![AI Architect Interview Pattern 7 - Human-in-the-loop in Agentic AI](07-human-in-the-loop-in-agentic-ai.png)
 
 ---
 

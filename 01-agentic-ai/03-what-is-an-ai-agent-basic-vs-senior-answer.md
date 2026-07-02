@@ -2,7 +2,7 @@
 
 # What is an AI Agent? Basic vs Senior Answer
 
-![AI Architect Interview Pattern 3 - What is an AI Agent Basic vs Senior Answer](../assets/03-what-is-an-ai-agent-basic-vs-senior-answer.png)
+![AI Architect Interview Pattern 3 - What is an AI Agent Basic vs Senior Answer](03-what-is-an-ai-agent-basic-vs-senior-answer.png)
 
 ---
 

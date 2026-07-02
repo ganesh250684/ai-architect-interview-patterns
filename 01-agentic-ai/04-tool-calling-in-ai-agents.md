@@ -2,7 +2,7 @@
 
 # Tool Calling in AI Agents
 
-![AI Architect Interview Pattern 4 - Tool Calling in AI Agents](../assets/04-tool-calling-in-ai-agents.png)
+![AI Architect Interview Pattern 4 - Tool Calling in AI Agents](04-tool-calling-in-ai-agents.png)
 
 ---
 

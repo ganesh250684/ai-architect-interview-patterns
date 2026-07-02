@@ -2,7 +2,7 @@
 
 # Agent Memory in AI Agents
 
-![AI Architect Interview Pattern 5 - Agent Memory in AI Agents](../assets/05-agent-memory-in-ai-agents.png)
+![AI Architect Interview Pattern 5 - Agent Memory in AI Agents](05-agent-memory-in-ai-agents.png)
 
 ---
 

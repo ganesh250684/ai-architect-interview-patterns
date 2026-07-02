@@ -2,7 +2,7 @@
 
 # Single Agent vs Multi-Agent System
 
-![AI Architect Interview Pattern 6 - Single Agent vs Multi-Agent System](../assets/06-single-agent-vs-multi-agent-system.png)
+![AI Architect Interview Pattern 6 - Single Agent vs Multi-Agent System](06-single-agent-vs-multi-agent-system.png)
 
 ---
 

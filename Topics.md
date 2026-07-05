@@ -4,42 +4,51 @@ This repo will be built gradually as part of the **AI Architect Interview Patter
 
 The focus is not only on definitions, but on practical interview answers, tradeoffs, and architect-level thinking.
 
+This series is publicly available and free for engineers preparing for:
+
+* GenAI interviews
+* AI Architect interviews
+* Solution Architect interviews
+* Staff Engineer interviews
+* RAG / Agentic AI / AI System Design discussions
+
 ---
 
 # Part 1: Agentic AI Fundamentals
 
-## 01. When should you NOT use an AI Agent? 
+## 01. When should you NOT use an AI Agent?
 
-Status: Started
+Status: Completed
 
 Key idea:
 
 > Not every problem needs an AI Agent. If the workflow is fixed, deterministic, and rule-based, a normal workflow may be better.
 
-Status: Completed
 ---
 
 ## 02. AI Agent vs Workflow vs Chatbot
+
+Status: Completed
 
 Key idea:
 
 > A chatbot talks, a workflow follows fixed steps, and an AI Agent decides actions dynamically using reasoning, tools, and context.
 
-Status: Completed
 ---
 
 ## 03. What is an AI Agent? Basic vs Senior Answer
+
+Status: Completed
 
 Key idea:
 
 > Do not only say “LLM + tools.” Explain reasoning, planning, tool use, memory, guardrails, and human-in-the-loop.
 
-
-Status: Completed
-
 ---
 
 ## 04. Tool Calling in AI Agents
+
+Status: Completed
 
 Key idea:
 
@@ -49,6 +58,8 @@ Key idea:
 
 ## 05. Agent Memory
 
+Status: Completed
+
 Key idea:
 
 > Memory is not just chat history. It can include session memory, user preferences, long-term memory, domain memory, and retrieved knowledge.
@@ -56,6 +67,8 @@ Key idea:
 ---
 
 ## 06. Single Agent vs Multi-Agent System
+
+Status: Completed
 
 Key idea:
 
@@ -65,31 +78,55 @@ Key idea:
 
 ## 07. Human-in-the-loop in Agentic AI
 
+Status: Completed
+
 Key idea:
 
 > For high-risk decisions, the AI system should recommend, but humans should approve.
 
 ---
 
-# Part 2: RAG System Design
+## Part 1 Quick Revision
 
-## 08. RAG Explained Like an Architect
+Status: Completed
+
+File:
+
+```text
+01-agentic-ai/00-agentic-ai-fundamentals-quick-revision.md
+```
 
 Key idea:
 
-> RAG is not just vector search. It includes ingestion, chunking, embedding, retrieval, ranking, prompt construction, generation, validation, and monitoring.
+> Quick revision notes for all Agentic AI fundamentals topics before moving to RAG System Design.
 
 ---
 
-## 09. RAG vs Fine-tuning vs Agent
+# Part 2: RAG System Design
+
+## 08. What is RAG?
+
+Status: Completed
 
 Key idea:
 
-> RAG is for external/updating knowledge, fine-tuning is for behavior/style/patterns, and agents are for dynamic task execution.
+> RAG retrieves relevant external knowledge and gives it to the LLM as context so the answer is more grounded, accurate, and useful.
+
+---
+
+## 09. RAG vs Fine-tuning
+
+Status: Completed
+
+Key idea:
+
+> RAG is for external knowledge at runtime. Fine-tuning is for changing model behavior, response style, format, or task-specific patterns.
 
 ---
 
 ## 10. Chunking Strategy
+
+Status: Upcoming
 
 Key idea:
 
@@ -99,6 +136,8 @@ Key idea:
 
 ## 11. Metadata Filtering and Tenant Isolation
 
+Status: Upcoming
+
 Key idea:
 
 > In enterprise RAG, metadata filtering is critical for security, tenant isolation, and correct retrieval.
@@ -106,6 +145,8 @@ Key idea:
 ---
 
 ## 12. Vector DB is Not Enough
+
+Status: Upcoming
 
 Key idea:
 
@@ -115,6 +156,8 @@ Key idea:
 
 ## 13. What if the Correct Answer is Not in Top-K?
 
+Status: Upcoming
+
 Key idea:
 
 > Top-k retrieval can miss the right answer. Use hybrid search, reranking, query expansion, better chunking, and evaluation.
@@ -122,6 +165,8 @@ Key idea:
 ---
 
 ## 14. Reducing Hallucination in RAG
+
+Status: Upcoming
 
 Key idea:
 
@@ -133,6 +178,8 @@ Key idea:
 
 ## 15. Cost, Latency, and Accuracy Triangle
 
+Status: Upcoming
+
 Key idea:
 
 > AI architecture is about balancing quality, speed, and cost.
@@ -140,6 +187,8 @@ Key idea:
 ---
 
 ## 16. P50, P95, and P99 Latency in LLM Apps
+
+Status: Upcoming
 
 Key idea:
 
@@ -149,6 +198,8 @@ Key idea:
 
 ## 17. Prompt Engineering vs Guardrails vs Validation
 
+Status: Upcoming
+
 Key idea:
 
 > Prompting guides behavior, guardrails restrict unsafe behavior, and validation checks output correctness.
@@ -156,6 +207,8 @@ Key idea:
 ---
 
 ## 18. Why Production AI Fails After Demo Success
+
+Status: Upcoming
 
 Key idea:
 
@@ -165,6 +218,8 @@ Key idea:
 
 ## 19. Fallback Design When LLM Fails
 
+Status: Upcoming
+
 Key idea:
 
 > AI systems should have fallback flows such as retry, smaller response, deterministic path, human escalation, or graceful failure.
@@ -173,6 +228,8 @@ Key idea:
 
 ## 20. Rate Limits, Retries, and Circuit Breaker
 
+Status: Upcoming
+
 Key idea:
 
 > LLM calls are external dependencies and should be treated like any other unreliable service.
@@ -180,6 +237,8 @@ Key idea:
 ---
 
 ## 21. Observability for AI Applications
+
+Status: Upcoming
 
 Key idea:
 
@@ -191,6 +250,8 @@ Key idea:
 
 ## 22. Multi-tenant GenAI Architecture
 
+Status: Upcoming
+
 Key idea:
 
 > Enterprise AI systems must isolate tenant data at storage, retrieval, prompt, logging, and access-control levels.
@@ -198,6 +259,8 @@ Key idea:
 ---
 
 ## 23. RBAC in AI Agents
+
+Status: Upcoming
 
 Key idea:
 
@@ -207,6 +270,8 @@ Key idea:
 
 ## 24. PII Handling in GenAI Applications
 
+Status: Upcoming
+
 Key idea:
 
 > Sensitive data should be masked, minimized, encrypted, audited, and not unnecessarily sent to models.
@@ -214,6 +279,8 @@ Key idea:
 ---
 
 ## 25. Audit Logging and Traceability
+
+Status: Upcoming
 
 Key idea:
 
@@ -223,6 +290,8 @@ Key idea:
 
 ## 26. Model Selection
 
+Status: Upcoming
+
 Key idea:
 
 > Do not use the biggest model by default. Choose based on task complexity, cost, latency, accuracy, and security.
@@ -231,6 +300,8 @@ Key idea:
 
 ## 27. Azure OpenAI + Azure AI Search Reference Architecture
 
+Status: Upcoming
+
 Key idea:
 
 > Common enterprise RAG architecture includes storage, ingestion pipeline, chunking, embeddings, Azure AI Search, Azure OpenAI, API layer, identity, monitoring, and feedback loop.
@@ -238,6 +309,8 @@ Key idea:
 ---
 
 ## 28. Semantic Kernel vs LangChain
+
+Status: Upcoming
 
 Key idea:
 
@@ -249,6 +322,8 @@ Key idea:
 
 ## 29. How would you design an Agentic AI system?
 
+Status: Upcoming
+
 Key idea:
 
 > Start with use case, users, goals, tools, data sources, agent flow, guardrails, observability, failure handling, and human escalation.
@@ -256,6 +331,8 @@ Key idea:
 ---
 
 ## 30. Design an Enterprise Document Q&A System
+
+Status: Upcoming
 
 Key idea:
 
@@ -265,6 +342,8 @@ Key idea:
 
 ## 31. Design an AI Support Assistant
 
+Status: Upcoming
+
 Key idea:
 
 > Support assistant should classify intent, retrieve knowledge, call tools, create tickets, escalate to humans, and learn from feedback.
@@ -272,6 +351,8 @@ Key idea:
 ---
 
 ## 32. Design an Invoice or Expense AI Agent
+
+Status: Upcoming
 
 Key idea:
 
@@ -281,6 +362,8 @@ Key idea:
 
 ## 33. Explain Your GenAI Project Like a Senior Engineer
 
+Status: Upcoming
+
 Key idea:
 
 > Explain problem, architecture, tradeoffs, failures, security, monitoring, and measurable impact.
@@ -288,6 +371,8 @@ Key idea:
 ---
 
 ## 34. What Failure Did You Handle in an AI Project?
+
+Status: Upcoming
 
 Key idea:
 
@@ -297,14 +382,33 @@ Key idea:
 
 ## 35. How Do You Measure AI System Quality?
 
+Status: Upcoming
+
 Key idea:
 
 > Measure retrieval quality, answer accuracy, latency, token cost, hallucination rate, user feedback, and business outcome.
 
+---
+
+# Common Reference Scenario
+
+Across this series, some examples use a simple enterprise scenario:
+
+```text
+Expense Management AI Agent
+```
+
+Reference file:
+
+```text
+00-common-examples/expense-management-ai-agent-scenario.md
+```
+
+This scenario helps explain concepts such as AI Agent, Tool Calling, Memory, RAG, Human-in-the-loop, Guardrails, and Observability using one relatable business flow.
 
 ---
 
-## About the Author
+# About the Author
 
 These notes are created and maintained by **Ganesh Tanaji Kumbhar**, an **AI Architect** with experience in **.NET, Azure, cloud architecture, infrastructure, enterprise application modernization, and GenAI solution design**.
 

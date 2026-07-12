@@ -2,7 +2,7 @@
 
 # Topic #15: Cost, Latency, and Accuracy Triangle
 
-![GenAI & AI Architect Interview Prep - Topic 15 - Cost, Latency, and Accuracy Triangle](15-cost-latency-accuracy-triangle.png)
+![GenAI & AI Architect Interview Prep - Topic 15 - Cost, Latency, and Accuracy Triangle](15-cost-latency-accuracy-triangle-revised.png)
 
 ---
 

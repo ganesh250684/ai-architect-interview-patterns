@@ -4,7 +4,7 @@
 
 ![GenAI & AI Architect Interview Prep - Topic 23 - RBAC in AI Agents](23-rbac-in-ai-agents.png)
 
----c:\Users\GaneshKumbhar\Downloads\ChatGPT Image Jul 26, 2026, 11_27_38 PM.png
+
 
 ## Question
 

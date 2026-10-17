@@ -17,7 +17,7 @@ In the previous topics, we covered:
 - CI/CD for ML and GenAI applications
 
 Now we move to the next practical production topic:
-
+ 
 ```text
 Model Deployment Patterns
 ```
